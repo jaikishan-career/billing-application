@@ -1,3 +1,5 @@
-spring.datasource.url=jdbc:postgresql://localhost:5432/navaan
-spring.datasource.username=postgres
+# Replace these placeholders with your local PostgreSQL connection settings.
+# URL format: jdbc:postgresql://<host>:<port>/<database>
+spring.datasource.url=YOUR_LOCAL_DB_URL
+spring.datasource.username=YOUR_DB_USERNAME
 spring.datasource.password=YOUR_LOCAL_PASSWORD

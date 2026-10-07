@@ -6,7 +6,7 @@ Java 21, Spring Boot, Spring JDBC, PostgreSQL, and Flyway. No UI or external ven
 
 Install JDK 21, Maven 3, and PostgreSQL (tested against PostgreSQL 18). Create an empty database called `navaan`, or set `DB_URL` to another dedicated database. The database user needs permission to create tables and indexes. Flyway applies the schema automatically at startup.
 
-Database URL, username, and password are together in the root `application-local.properties`, which Spring loads automatically and `.gitignore` excludes. The credential file is not included in the submission. Copy the committed template and fill in your own local PostgreSQL password:
+Database URL, username, and password are together in the root `application-local.properties`, which Spring loads automatically and `.gitignore` excludes. The credential file is not included in the submission. Copy the committed template and replace `YOUR_LOCAL_DB_URL`, `YOUR_DB_USERNAME`, and `YOUR_LOCAL_PASSWORD` with your local PostgreSQL settings:
 
 ```powershell
 cd D:\practice\Navaan\BillingApplication
@@ -127,5 +127,6 @@ Run style checks, PostgreSQL HTTP tests, and package the service:
 ```powershell
 mvn verify
 ```
+
 
 
