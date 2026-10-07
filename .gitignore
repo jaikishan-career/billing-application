@@ -1,0 +1,9 @@
+target/
+data/
+.env
+*.log
+.DS_Store
+.idea/
+*.iml
+.maven-repository/
+/application-local.properties
